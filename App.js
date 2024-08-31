@@ -1,12 +1,11 @@
-import React from 'react';
-import LoginPage from './LoginPage';
-import Header from "../src/Header"
+
+import './App.css';
+import LeaveForm from './LeaveForm';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <LoginPage />
+    <div>
+      <LeaveForm />
     </div>
   );
 }
